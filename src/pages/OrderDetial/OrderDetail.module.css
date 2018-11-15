@@ -1,0 +1,191 @@
+.box {
+    height: 100%;
+    background-color: #f1f1f1;
+    overflow: scroll;
+    padding: 0 0.22rem;
+}
+
+.status {
+    height: 1.27rem;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 0.2rem;
+    color: #ed6f00;
+    font-size: 0.48rem;
+    margin-bottom: 0.12rem;
+    margin-top: 0.2rem;
+}
+
+.statusNote {
+    font-size: 0.28rem;
+    color: #474646;
+}
+
+.map {
+    width: 100%;
+    height: 5rem;
+    background-color: red;
+    border-radius: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.detail {
+
+}
+
+.products, .delivery, .order {
+    /*height: 10rem;*/
+    background-color: #fff;
+    border-radius: 0.1rem;
+    padding: 0.22rem;
+    margin-bottom: 0.1rem;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+}
+
+.brandImage {
+    height: 0.62rem;
+    width: 0.62rem;
+}
+
+.brandName {
+    margin: auto 0 auto 0.17rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+}
+
+.product, .otherPrice {
+    height: 1.1rem;
+    display: flex;
+    border-bottom: solid 0.01rem #dcdcdc;
+}
+
+.p-name {
+    font-size: 0.28rem;
+    margin: auto auto auto 0;
+}
+
+.productCoupon {
+    margin: auto 0;
+
+    width: 1.4rem;
+    height: 0.34rem;
+    border-radius: 0.17rem;
+    border: solid 0.02rem #ff3b21;
+    line-height: 0.34rem;
+    text-align: center;
+    color: #ff3b21;
+}
+
+.count {
+    margin: auto 0.2rem;
+}
+
+.price {
+    text-align: right;
+    width: 1rem;
+    margin: auto 0;
+}
+
+.total {
+    display: flex;
+    height: 0.9rem;
+    font-size: 0.28rem;
+}
+
+.totalOriginPrice {
+    margin: auto 0;
+}
+
+.totalOriginPrice span {
+    color: #ff3b21;
+}
+
+.totalDiscountPrice {
+    margin: auto auto auto 0.48rem;
+}
+
+.totalPrice {
+    margin: auto 0;
+}
+
+.totalPrice span {
+    font-size: 0.36rem;
+    color: #ff3b21;
+}
+
+.infoTitle {
+    margin-left: 0.07rem;
+    font-size: 0.3rem;
+}
+
+.infoItem {
+    display: flex;
+    border-bottom: solid 0.01rem #dcdcdc;
+    min-height: 1.1rem;
+}
+
+.infoKey {
+    margin: auto 0;
+}
+
+.infoValue {
+    margin: auto 0 auto auto;
+    text-align: right;
+}
+
+.tips {
+    height: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.buttons {
+    background-color: #fff;
+    height: 0.92rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cancel {
+    width: 1.68rem;
+    height: 0.68rem;
+    background-color: #ed6f00;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.34rem;
+    line-height: 0.68rem;
+    margin: auto 0 auto 0.15rem;
+}
+
+.callStore {
+    width: 1.68rem;
+    height: 0.68rem;
+    text-align: center;
+    color: #ed6f00;
+    border-radius: 0.34rem;
+    border: solid 0.02rem #ed6f00;
+    line-height: 0.68rem;
+    margin: auto 0 auto 0.15rem;
+}
+
+.callDelivery {
+    width: 1.68rem;
+    height: 0.68rem;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.34rem;
+    line-height: 0.68rem;
+    margin: auto 0 auto 0.15rem;
+}

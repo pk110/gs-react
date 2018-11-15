@@ -1,0 +1,117 @@
+.box {
+    background-color: #f1f1f1;
+    height: 100%;
+    /*border: solid 0.02rem red;*/
+}
+
+.scroll {
+    height: 100%;
+    overflow-y: auto;
+    /*border: solid 0.02rem green;*/
+
+}
+
+.scrollWarp {
+    padding-top: 0.3rem;
+}
+
+.addressItem {
+    display: flex;
+    flex-direction: column;
+    padding: 0.29rem 0.22rem 0.36rem;
+    margin: 0 0.22rem;
+    background-color: #fff;
+    border-bottom: solid 0.01rem #f1f1f1;
+}
+
+.item, .itemInactive {
+    display: flex;
+}
+
+.itemInactive .address {
+    color: #a5a5a5;
+}
+
+.itemInactive .addressDetail {
+    color: #a5a5a5;
+}
+
+.itemInactive .user {
+    color: #bbbbbb;
+}
+
+.itemInactive .edit {
+    color: #696969;
+}
+
+.edit :last-child {
+    margin: auto 0;
+}
+
+.notInRange {
+    margin-bottom: 0.18rem;
+    color: #ff5518;
+    font-size: 0.24rem;
+}
+
+.itemWarp {
+    display: flex;
+    background-color: #fff;
+    padding-left: 0.22rem;
+}
+
+.address {
+    flex: 1;
+}
+
+.addressName {
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+
+.addressDetail {
+    font-size: 0.24rem;
+    color: #696969;
+    margin-top: 0.18rem;
+}
+
+.user {
+    font-size: 0.24rem;
+    color: #a5a5a5;
+    margin-top: 0.29rem;
+}
+
+.edit {
+    font-size: 0.24rem;
+    display: flex;
+    margin: auto 0;
+    color: #ed6f00;
+}
+
+.editImage {
+    width: 0.6rem;
+    height: 0.6rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 0.96rem;
+    background-color: #fff;
+    display: flex;
+}
+
+.addAddress {
+    height: 0.68rem;
+    width: 6.78rem;
+    background-color: #ed6f00;
+    border-radius: 0.34rem;
+    line-height: 0.68rem;
+    font-size: 0.3rem;
+    color: #fff;
+    margin: auto;
+
+}

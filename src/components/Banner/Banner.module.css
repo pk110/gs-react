@@ -1,0 +1,11 @@
+.box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner {
+    width: 300%;
+    display: flex;
+    transform: translateX(-33.33333%);
+}
+

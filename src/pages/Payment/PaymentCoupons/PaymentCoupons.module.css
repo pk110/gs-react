@@ -1,0 +1,91 @@
+.box {
+    background-color: #fff;
+    height: 100%;
+}
+
+.scroll {
+    overflow-y: auto;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.items {
+    padding: 0.2rem 0.22rem 1.5rem 0.22rem;
+    font-size: 0.28rem;
+}
+
+.itemNoUse {
+    height: 0.9rem;
+}
+
+.coupon {
+    display: flex;
+    flex: 1;
+    margin: 0.14rem 0 0.14rem 0.22rem;
+}
+
+.couponImage {
+    width: 1.52rem;
+    height: 1.52rem;
+}
+
+.couponContext {
+    margin: 0.08rem auto 0.09rem 0.29rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.couponName {
+
+}
+
+.couponNote {
+    margin-top: 0.16rem;
+    flex: 1;
+}
+
+.couponDate {
+    font-size: 0.2rem;
+    color: #a5a5a5;
+}
+
+.item, .itemNoUse {
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 0.12rem;
+    border-radius: 0.1rem;
+}
+
+.checked {
+    margin: auto;
+}
+
+.checkedImage {
+    margin: auto 0.22rem auto;
+    width: 0.34rem;
+    height: 0.34rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.96rem;
+    background-color: #fff;
+    display: flex;
+}
+
+.commit {
+    margin: auto;
+
+    height: 0.68rem;
+    width: 6.78rem;
+    border-radius: 0.34rem;
+    background-color: #ed6f00;
+    color: #fff;
+    text-align: center;
+    line-height: 0.68rem;
+    font-size: 0.3rem;
+
+}

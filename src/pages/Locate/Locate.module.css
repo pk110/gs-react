@@ -1,0 +1,132 @@
+.box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    flex: 1;
+    overflow: hidden;
+}
+
+.scroll {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.productList {
+    height: 100%;
+    overflow: auto;
+}
+
+.title {
+    display: flex;
+    height: 0.8rem;
+    background-color: #e4e4e4;
+}
+
+.input {
+    background-color: #fff;
+    height: 0.64rem;
+    margin: auto 0 auto 0.28rem;
+    border-radius: 0.1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.16rem;
+    width: 100%;
+    display: flex;
+}
+
+.city {
+    display: flex;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    margin: auto 0;
+    width: 1.24rem;
+
+    font-size: 0.28rem;
+    /*width: 2rem;*/
+
+    border-right: solid #e4e4e4 0.01rem;
+}
+
+.cityName {
+    width: 0.7rem;
+}
+
+.cityArrow {
+    width: 0.32rem;
+    height: 0.32rem;
+    margin: auto 0.12rem;
+}
+
+.search {
+    margin: auto auto auto 0.12rem;
+    border: none;
+    /*width: 1rem;*/
+    width: 3.6rem;
+    font-size: 0.24rem;
+}
+
+.close {
+    width: 0.32rem;
+    height: 0.32rem;
+    margin: auto 0;
+}
+
+.cancel {
+    margin: auto 0.25rem;
+    font-size: 0.3rem;
+    width: 1rem;
+}
+
+.addressList {
+    overflow-y: auto;
+}
+
+.addressItem {
+    height: 1.26rem;
+    display: flex;
+}
+
+.addressIcon {
+    width: 0.9rem;
+    margin: auto 0;
+    text-align: center;
+}
+
+.addressInfo {
+    width: 100%;
+    padding: 0 0 auto 0;
+    border-bottom: solid 0.01rem #e4e4e4;
+}
+
+.addressName {
+    display: flex;
+    width: 100%;
+    color: #000;
+    font-size: 0.3rem;
+    font-weight: bold;
+    margin-top: 0.28rem;
+}
+
+.addressDistance {
+    /*margin-top: 0.35rem;*/
+    text-align: right;
+    color: #696969;
+    font-size: 0.24rem;
+
+    margin: auto 0.3rem auto auto;
+
+}
+
+.addressDetail {
+    font-size: 0.28rem;
+    margin-top: 0.16rem;
+    color: #696969;
+}
+
+.addressImage {
+    width: 0.34rem;
+    height: 0.46rem;
+}
+

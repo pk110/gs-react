@@ -1,0 +1,353 @@
+.box {
+    background-color: #fff;
+    height: 100%;
+}
+
+.scroll {
+    overflow-y: auto;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.payment {
+
+}
+
+.itemName {
+    flex: 1;
+    margin: auto 0;
+}
+
+.into {
+    height: 0.3rem;
+    width: 0.16rem;
+    margin: auto 0 auto 0.22rem;
+}
+
+.address {
+    margin: 0.3rem 0.22rem 0 0.22rem;
+    display: flex;
+    padding: 0.3rem 0.22rem 0.3rem 0.3rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    color: #464646;
+    font-size: 0.28rem;
+}
+
+.addressContext {
+    flex: 1;
+}
+
+.noAddress {
+    flex: 1;
+    color: #696969;
+}
+
+.addressName {
+    font-size: 0.28rem;
+    font-weight: bold;
+
+}
+
+.addressInfo {
+    font-size: 0.24rem;
+    color: #696969;
+    margin-top: 0.17rem;
+}
+
+.receiverInfo {
+    display: flex;
+    font-size: 0.24rem;
+    margin-top: 0.3rem;
+    color: #a5a5a5;
+}
+
+.time {
+    margin: 0.12rem 0.22rem 0 0.22rem;
+    display: flex;
+    padding: 0.3rem 0.22rem 0.3rem 0.3rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    color: #464646;
+    font-size: 0.28rem;
+}
+
+.products {
+    margin: 0.12rem 0.22rem 0 0.22rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem 0.22rem 0 0.3rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    color: #464646;
+    font-size: 0.28rem;
+}
+
+.shop {
+    display: flex;
+}
+
+.shopLogo {
+    width: 0.6rem;
+    height: 0.6rem;
+}
+
+.shopName {
+    margin: auto 0 auto 0.18rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+
+.tips {
+    padding: 0.62rem 0 0.22rem 0;
+    font-size: 0.24rem;
+    color: #a5a5a5;
+    border-bottom: solid 0.01rem #dcdcdc;
+}
+
+.product {
+    display: flex;
+    padding: 0.4rem 0;
+    border-bottom: solid 0.01rem #dcdcdc;
+
+}
+
+.productName {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    margin: auto 0;
+}
+
+.productCoupons {
+    padding: 0.06rem 0.12rem;
+    border: solid 0.02rem #ff3b21;
+    border-radius: 0.2rem;
+    margin: auto 0;
+    font-size: 0.2rem;
+}
+
+.productCount {
+    width: 0.7rem;
+    text-align: right;
+    margin: auto 0;
+}
+
+.productPrice, .productTotalPrice {
+    width: 1rem;
+    text-align: right;
+    margin: auto 0;
+}
+
+.total {
+    display: flex;
+    padding: 0.32rem 0;
+    margin-top: 0.008rem;
+    border-top: solid 0.01rem #dcdcdc;
+}
+
+.productTotal {
+    flex: 1;
+    text-align: right;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+
+.productTotalPrice {
+    color: #ff3b21;
+    font-size: 0.28rem;
+}
+
+.coupons {
+    margin: 0.12rem 0.22rem 0 0.22rem;
+    display: flex;
+    padding: 0.3rem 0.22rem 0.3rem 0.3rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    color: #464646;
+    font-size: 0.28rem;
+}
+
+.couponCount {
+    padding: 0.06rem 0.12rem;
+    border: solid 0.02rem #ff3b21;
+    border-radius: 0.2rem;
+    color: #ff3b21;
+}
+
+.summary {
+    font-size: 0.36rem;
+    display: flex;
+    margin-top: 1.5rem;
+    height: 0.96rem;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.totalPrice {
+    margin: auto auto auto 0;
+    color: #ff3b21;
+}
+
+.pay {
+    width: 2.4rem;
+    height: 0.68rem;
+    background-color: #ed6f00;
+    color: #fff;
+    text-align: center;
+    line-height: 0.68rem;
+    border-radius: 0.34rem;
+    margin: auto 0.12rem;
+    font-weight: normal;
+    font-size: 0.3rem;
+}
+
+.couponPrice {
+    color: #ff3b21;
+}
+
+.couponDialog {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+.peopleDialogCover {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 51;
+    opacity: 0.5;
+    background-color: #000;
+}
+
+.peopleDialog {
+    position: fixed;
+    bottom: 0.2rem;
+    left: 0.22rem;
+    right: 0.22rem;
+
+    z-index: 52;
+}
+
+.peopleDialogTitle {
+    display: flex;
+    background-color: #000;
+    padding-left: 0.21rem;
+    padding-right: 0.15rem;
+    height: 0.62rem;
+    border-radius: 0.1rem 0.1rem 0 0;
+}
+
+.peopleDialogTitleName {
+    color: #fff;
+    margin: auto 0;
+    flex: 1;
+    font-size: 0.24rem;
+}
+
+.dialogClose {
+    height: 0.32rem;
+    width: 0.32rem;
+    margin: auto;
+}
+
+.peopleDialogBody {
+    display: flex;
+    border-radius: 0 0 0.1rem 0.1rem;
+    background-color: #fff;
+}
+
+.peopleDialogContent {
+    margin: 0.23rem auto;
+    display: flex;
+}
+
+.peopleCountDec, .peopleCountInc {
+    height: 0.44rem;
+    width: 0.44rem;
+}
+
+.peopleCount {
+    margin: auto;
+    text-align: center;
+    width: 1.15rem;
+}
+
+.peopleDialogCommit {
+    margin: 0.38rem auto 0.28rem auto;
+    height: 0.9rem;
+    width: 4.72rem;
+    text-align: center;
+    background-color: #ed6f00;
+    border-radius: 0.45rem;
+    line-height: 0.9rem;
+    font-size: 0.3rem;
+    color: #fff;
+}
+
+.sendTimeDialogContent {
+    height: 5.2rem;
+    display: flex;
+    width: 100%;
+}
+
+.sendTimeDate {
+    width: 2.42rem;
+    background-color: #e3e3e3;
+    font-size: 0.24rem;
+}
+
+.sendTimeDateItem {
+    height: 1rem;
+    line-height: 1rem;
+    margin: auto;
+    padding-left: 0.3rem;
+}
+
+.sendTimeDateItemActive {
+    height: 1rem;
+    line-height: 1rem;
+    margin: auto;
+    padding-left: 0.3rem;
+
+    font-size: 0.3rem;
+    background-color: #fff;
+}
+
+.sendTimeTime {
+    /*flex: 1;*/
+
+    margin: 0 1.82rem auto auto;
+
+}
+
+.sendTimeTimeItem {
+    height: 1rem;
+    line-height: 1rem;
+    text-align: right;
+    color: #464646;
+    font-size: 0.28rem;
+}
+
+.soldOut {
+    color: red;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.05rem 0.15rem;
+    border: 1px solid red;
+    border-radius: 0.1rem;
+
+    font-size: 0.2rem;
+    margin-left: 0.1rem;
+    /*line-height: 1.5;*/
+}

@@ -1,0 +1,135 @@
+.box {
+
+}
+
+.itemKey {
+    font-size: 0.28rem;
+    width: 1.2rem;
+    color: #464646;
+    display: flex;
+}
+
+.itemName {
+    margin: auto 0;
+}
+
+.itemValue {
+    font-size: 0.28rem;
+    flex: 1;
+    color: #464646;
+}
+
+.context {
+    background-color: #fff;
+    padding: 0 0.2rem;
+}
+
+.context > :last-child {
+    border: none;
+}
+
+.del {
+    height: 0.62rem;
+    background-color: #696969;
+    text-align: right;
+    color: #fff;
+    padding-right: 0.3rem;
+    font-size: 0.24rem;
+    line-height: 0.62rem;
+}
+
+.delImage {
+    height: 0.24rem;
+    width: 0.22rem;
+    margin: auto 0.06rem auto 0;
+}
+
+.name {
+    display: flex;
+    padding: 0.25rem 0 0;
+}
+
+.gender {
+    border-bottom: solid 0.02rem #f1f1f1;
+    padding: 0.1rem 0 0.21rem;
+}
+
+.phone, .address, .addressDetail {
+    padding: 0.25rem 0 0.21rem;
+    display: flex;
+    border-bottom: solid 0.02rem #f1f1f1;
+}
+
+.context input {
+    font-size: 0.28rem;
+    border: none;
+    margin: 0;
+    padding: 0 0.2rem;
+    /*height: 0.8rem;*/
+    line-height: 2;
+}
+
+.context button {
+    margin: 0 0.2rem 0 0;
+    width: 1.2rem;
+    height: 0.68rem;
+    border: solid 0.02rem #000;
+    border-radius: 0.34rem;
+    color: #000;
+    background-color: #fff;
+    font-size: 0.24rem;
+}
+
+.gender .active {
+    background-color: #000;
+    color: #fff;
+}
+
+.gender {
+
+}
+
+.addressInfo {
+    display: flex;
+}
+
+.addressContent {
+    flex: 1;
+}
+
+.addressContent :nth-child(2) {
+    margin-top: 0.35rem;
+    font-size: 0.24rem;
+    color: #696969;
+}
+
+.set {
+    height: 0.3rem;
+    width: 0.16rem;
+    margin: auto 0;
+}
+
+.save {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    height: 1rem;
+    display: flex;
+}
+
+.save button {
+    margin: auto;
+    height: 0.68rem;
+    width: 6.78rem;
+    border-radius: 0.34rem;
+    font-size: 0.3rem;
+    color: #fff;
+    background-color: #ed6f00;
+}
+
+:global(.am-list-item .am-list-line .am-list-arrow) {
+    background-image: url("../../static/images/address/set.png")
+}
+

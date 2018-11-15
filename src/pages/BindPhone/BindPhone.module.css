@@ -1,0 +1,157 @@
+.box {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+
+    text-align: center;
+}
+
+.logo {
+    margin-top: 1.7rem;
+    width: 2.3rem;
+
+}
+
+.phone_wrapper {
+    display: flex;
+    width: 5.60rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    margin: 1.5rem auto 0;
+}
+
+.phone_wrapper span {
+    font-size: 0.24rem;
+    color: #000000;
+    padding: 0 0.3rem 0 0.08rem;
+}
+
+.phone_wrapper img {
+    margin-left: 0.1rem;
+    width: 0.14rem;
+    vertical-align: middle
+}
+
+.phone_wrapper input {
+    font-size: 0.24rem;
+    background: none;
+    outline: none;
+    border: none;
+    flex: 1;
+    color: #000;
+}
+
+.code_wrapper {
+    display: flex;
+    width: 5.60rem;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    margin: 0.2rem auto 0;
+}
+
+.code_wrapper input {
+    padding-left: 0.4rem;
+    flex: 1;
+    font-size: 0.24rem;
+    background: none;
+    outline: none;
+    border: none;
+    color: #000;
+}
+
+.code_wrapper button {
+    width: 1.8rem;
+    height: 0.64rem;
+    font-size: 0.24rem;
+    border-radius: 0.32rem;
+    border: solid 0.02rem #000;
+    background-color: transparent;
+    margin-right: 0.2rem;
+}
+
+.code_wrapper button .disable {
+    border: solid 0.02rem #000;
+    color: #000;
+}
+
+.line {
+    width: 5.60rem;
+    height: 0.12rem;
+    border: 1px solid #a5a5a5;
+    border-top: none;
+    margin: 0 auto;
+}
+
+.clause_wrapper {
+    margin-top: 2rem;
+    font-size: 0.2rem;
+    color: #000;
+
+}
+
+.clause_wrapper span {
+    color: red;
+}
+
+.btn_wrapper {
+    margin-top: 0.5rem;
+    width: 5.6rem;
+    height: 0.68rem;
+    line-height: 0.68rem;
+    background-color: #ed6f00;
+    border-radius: 0.34rem;
+    color: #ffffff;
+    border: none;
+    font-size: 0.3rem;
+}
+
+input::-webkit-input-placeholder {
+    color: #a5a5a5;
+}
+
+.note {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    text-align: center;
+}
+
+.note .center {
+    width: 68%;
+    height: 68%;
+    background: #fff;
+    margin: 23% auto 0;
+    border-radius: 0.1rem;
+    overflow: scroll;
+    text-align: justify;
+    padding: 0 0.3rem 0.2rem;
+    font-size: 0.24rem;
+}
+
+.note .title {
+    color: #000;
+    font-size: 0.3rem;
+    padding: 0.2rem 0;
+    text-align: center;
+}
+
+.note .btn_close {
+    width: 0.5rem;
+    margin-top: 0.3rem;
+
+}
+
+.note p {
+    line-height: 1.5;
+}
+
+.note h4 {
+    line-height: 2;
+}
+
+.note li {
+    list-style: none;
+}

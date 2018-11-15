@@ -1,0 +1,201 @@
+.box
+  height: 100%
+
+.scroll
+  height: 100%
+  overflow-y: auto
+
+.banner
+  //height: 4.24rem
+  //background: red
+  min-height: 2rem
+  width: 100%
+
+.result
+  display: flex
+  flex-direction: column
+  background-color: #fff
+  position: relative
+  .grabbed
+    font-size: 0.36rem
+    color: #ed6f00
+    margin: 0.89rem auto 0 auto
+  .goStore
+    width: 4.8rem
+    height: 0.78rem
+    margin: 0.5rem auto 0.61rem auto
+    text-align: center
+    line-height: 0.78rem
+    background-color: #000
+    color: #fff
+    border-radius: 0.39rem
+  .item
+    height: 1.8rem
+    margin: 0 0.22rem
+    background-color: #fff
+    position: relative
+    top: -0.2rem
+    border-radius: 0.1rem
+    box-shadow: 0 0.03rem 0.08rem rgba(0, 0, 0, 0.3)
+  .requestSubscribe
+    display: flex
+    justify-content: center
+    margin: 0.3rem 0 0.5rem
+    .qr
+      width: 2.2rem
+      height: 2.2rem
+
+    div:last-child
+      text-align: center
+      margin: auto 0 auto 0.7rem
+      p
+        line-height: 0.4rem
+
+.detail
+  margin-top: 0.12rem
+  background-color: #fff
+  padding: 0 0.45rem
+  text-align: center
+  .detailTitle
+    height: 0.3rem
+    padding-top: 0.2rem
+    padding-bottom: 0.3rem
+  .detailItems
+    text-align: left
+    height: 1.25rem
+    display: flex
+    border-bottom: solid 0.02rem #eeeeee
+    &:last-child
+      border: none
+    .detailImage
+      width: 0.8rem
+      height: 0.8rem
+      border-radius: 0.4rem
+      //background-color: red
+      margin: auto 0
+    .detailName
+      margin: auto 0.1rem auto 0.12rem
+      flex: 1
+      min-width: 0
+      p:first-child
+        font-size: 0.28rem
+        color: #464646
+        margin-bottom: 0.26rem
+        overflow: hidden
+        white-space: nowrap
+        text-overflow: ellipsis
+
+      p:last-child
+        font-size: 0.2rem
+        color: #898989
+        overflow: hidden
+        white-space: nowrap
+        text-overflow: ellipsis
+    .detailItem
+      margin: auto 0
+      font-size: 0.24rem
+      color: #332211
+      white-space: nowrap
+      flex: 0
+
+.rule
+  margin-top: 0.12rem
+  background-color: #fff
+  text-align: center
+  padding-bottom: 0.5rem
+  .ruleTitle
+    height: 0.3rem
+    padding-top: 0.2rem
+    padding-bottom: 0.2rem
+  p
+    text-align: left
+    line-height: 0.5rem
+    font-size: 0.28rem
+    color: #898989
+    margin: 0 0.5rem 0.3rem
+    text-indent: -0.35rem
+    justify-content: space-between
+
+.footer
+  margin-top: 0.12rem
+  text-align: center
+  background-color: #fff
+  padding-bottom: 1rem
+  .footerTitle
+    padding-top: 0.2rem
+    padding-bottom: 0.2rem
+  .footerQr
+    margin: auto auto
+    width: 3.5rem
+    height: 3.5rem
+
+.couponDiscount
+  height: 100%
+  width: 100%
+  display: flex
+  > div:first-child
+    position: relative
+    margin: auto 0.22rem
+    color: #fff
+    h2
+      position: absolute
+      top: 0.39rem
+      text-align: center
+      width: 100%
+      font-size: 0.48rem
+    p
+      position: absolute
+      top: 0.34rem
+      text-align: center
+      width: 100%
+      font-size: 0.68rem
+      span
+        font-size: 0.24rem
+        color: #fff
+  img
+    width: 1.52rem
+    height: 1.52rem
+
+.couponName
+  height: 1.52rem
+  margin: auto 0
+  display: flex
+  flex: 1
+  flex-direction: column
+  p:first-child
+    margin-top: 0.05rem
+    color: #464646
+    font-size: 0.28rem
+  p:last-child
+    margin-top: auto
+    margin-bottom: 0.1rem
+    font-size: 0.2rem
+    color: #a5a5a5
+  > div
+    margin-top: 0.17rem
+    font-size: 0.2rem
+    color: #696969
+
+.couponUse
+  text-align: center
+  margin-right: 0.22rem
+  display: flex
+  flex-direction: column
+  font-size: 0.2rem
+  color: #a5a5a5
+  p:first-child
+    margin-top: 0.23rem
+  a
+    display: block
+    font-size: 0.24rem
+    background-color: #ed6f00
+    color: #fff
+    margin: auto
+    width: 1.7rem
+    height: 0.68rem
+    line-height: 0.68rem
+    border-radius: 0.34rem
+  p:last-child
+    margin-bottom: 0.23rem
+    span
+      color: #ff3b21

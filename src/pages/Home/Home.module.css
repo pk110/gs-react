@@ -1,0 +1,269 @@
+.box {
+    /*padding: 0 0.1rem;*/
+    background-color: #fff;
+    height: 100%;
+    /*overflow-y: scroll;*/
+}
+
+.scroll {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.productList {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.header {
+    background-color: #fff;
+    margin-bottom: 0.12rem;
+}
+
+.location {
+    display: flex;
+    margin: 0 0.3rem 0.14rem 0.22rem;
+    padding-top: 0.2rem;
+}
+
+.locationBtn {
+    margin: auto 0;
+    height: 0.32rem;
+}
+
+.locationName {
+    margin: auto auto auto 0.13rem;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.locationName a {
+    color: #000;
+}
+
+.locationSearch {
+    width: 4.46rem;
+    height: 0.64rem;
+    background-color: #e4e4e4;
+    border-radius: 0.32rem;
+    border: none;
+    padding-left: 0.5rem;
+}
+
+.banners {
+    margin: 0 0.22rem;
+    border-radius: 0.1rem;
+    height: 2rem;
+}
+
+.banner {
+    border-radius: 0.1rem;
+    height: 2rem;
+    display: block;
+}
+
+.bannerContainer {
+    display: flex;
+}
+
+.bannerImage {
+    height: 2.0rem;
+    width: 100%;
+    border-radius: 0.1rem;
+    display: block;
+}
+
+.labels {
+    font-size: 0.22rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.21rem;
+}
+
+.labels > div {
+    width: 20%;
+}
+
+.labelName {
+    margin-top: 0.2rem;
+    margin-bottom: 0.34rem;
+}
+
+.labelImage {
+    width: 0.76rem;
+    height: 0.76rem;
+}
+
+.line {
+    height: 0.12rem;
+    background-color: #f1f1f1;
+}
+
+.popular {
+    background-color: #fff;
+}
+
+.popularTitle {
+    height: 0.44rem;
+    text-align: center;
+    margin-top: 0.16rem;
+    margin-bottom: 0.2rem;
+}
+
+.popularTitleImage {
+    height: 0.44rem;
+}
+
+.popularBannerImage {
+    /*background: red;*/
+    height: 2rem;
+    width: 100%;
+    /*margin: 0 0.22rem;*/
+    border-radius: 0.1rem;
+}
+
+.popularProductList {
+    display: flex;
+    margin-top: 0.2rem;
+    overflow-x: auto;
+    padding-left: 0.22rem;
+    overflow-y: hidden;
+}
+
+.popularProduct {
+    margin-right: 0.18rem;
+
+}
+
+.popularProductImage {
+    width: 2.1rem;
+    height: 2.1rem;
+    /*background: red;*/
+    border-radius: 0.1rem;
+}
+
+.popularProductName {
+    font-size: 0.2rem;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dialogCover {
+    position: fixed;
+    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+}
+
+.dialog {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    z-index: 501;
+    text-align: center;
+}
+
+.dialogBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialogWrap {
+    width: 5.6rem;
+    margin: auto;
+}
+
+.dialogBody {
+    background-image: url("../../static/images/index/dialog.png");
+    background-size: contain;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 0.6rem 0;
+}
+
+.dialogClose {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0.6rem auto 0 auto;
+}
+
+.dialogContextImage {
+    /*width: 70%;*/
+    margin: 0 auto;
+    width: 70%;
+}
+
+.dialogContextCoupon {
+    height: 1.48rem;
+    background-color: #f1f1f1;
+    margin: 0.2rem;
+    border-radius: 0.1rem;
+}
+
+.cart {
+    z-index: 99;
+    position: fixed;
+    right: 0.3rem;
+    bottom: 1.3rem;
+}
+
+.cartIcon, .couponsIcon {
+    position: relative;
+}
+
+.couponsIcon {
+    margin-bottom: 0.3rem;
+}
+
+.cart img {
+    width: 0.86rem;
+    height: 0.86rem;
+}
+
+.cartIcon div {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 0.15rem;
+    background-color: #ff3b21;
+    color: #fff;
+    text-align: center;
+    line-height: 0.34rem;
+    border: solid 0.02rem #fff;
+    font-size: 0.18rem;
+}
+
+.couponsIcon div {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 0.15rem;
+    background-color: #ff3b21;
+    color: #fff;
+    text-align: center;
+    line-height: 0.34rem;
+    border: solid 0.02rem #fff;
+    font-size: 0.18rem;
+}

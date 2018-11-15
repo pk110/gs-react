@@ -1,0 +1,211 @@
+.box
+  background-color: #fff
+  height: 100%
+  font-size: 0.28rem
+
+.scroll
+  overflow-y: auto
+  height: 100%
+  background-color: #f1f1f1
+
+.payment
+  padding: 0 0.22rem
+
+.orderStatus
+  font-size: 0.48rem
+  color: #ed6f00
+  margin-top: 0.29rem
+  margin-left: 0.22rem
+
+.receiveTime
+  margin-top: 0.2rem
+  padding: 0.3rem 0.22rem
+  background-color: #fff
+  border-radius: 0.1rem
+  .sendTime
+    color: #464646
+  .buttons
+    display: flex
+    margin: 0.16rem 0.08rem 0 0
+    button
+      border-radius: 0.34rem
+      height: 0.68rem
+      width: 1.68rem
+      margin-right: 0.2rem
+    .newOrder
+      background-color: #ed6f00
+      color: #fff
+    .contact
+      background-color: #fff
+      color: #ed6f00
+      border: solid 0.02rem #ed6f00
+
+@mixin itemName
+  flex: 1
+  min-width: 0
+  overflow: hidden
+  white-space: nowrap
+  text-overflow: ellipsis
+  margin: auto 0
+
+@mixin itemTitle
+  font-size: 0.3rem
+  font-weight: bold
+  color: #000
+  margin-top: 0.3rem
+  display: flex
+
+@mixin itemPrice
+  width: 1rem
+  text-align: right
+  margin: auto 0
+
+@mixin itemBody
+  border-radius: 0.1rem
+  color: #464646
+  background-color: #fff
+  display: flex
+  margin: 0.12rem 0
+  flex-direction: column
+  padding-left: 0.22rem
+  padding-right: 0.22rem
+
+.products
+  @include itemBody
+  .shop
+    @include itemTitle
+    .sLogo
+      width: 0.6rem
+      height: 0.6rem
+    .sName
+      margin: auto 0 auto 0.18rem
+  .product
+    display: flex
+    padding: 0.4rem 0
+    border-bottom: solid 0.01rem #dcdcdc
+    .pName
+      @include itemName
+    .pCoupons
+      padding: 0.06rem 0.12rem
+      border: solid 0.02rem #ff3b21
+      border-radius: 0.2rem
+      margin: auto 0
+      font-size: 0.2rem
+    .pCount
+      width: 0.7rem
+      text-align: right
+      margin: auto 0
+    .pPrice
+      @include itemPrice
+  .pTotal
+    display: flex
+    padding: 0.32rem 0
+    margin-top: 0.008rem
+    border-top: solid 0.01rem #dcdcdc
+    .tName
+      text-align: right
+      flex: 1
+      font-weight: bold
+    .tPrice
+      color: #ff3b21
+      margin-left: 0.14rem
+
+.coupons
+  @include itemBody
+  .cTitle
+    @include itemTitle
+    margin-bottom: 0.22rem
+  .coupon
+    display: flex
+    margin: 0.27rem 0
+    .cName
+      @include itemName
+    .cPrice
+      @include itemPrice
+      color: #ff3b21
+  .cTotal
+    display: flex
+    padding: 0.32rem 0
+    margin-top: 0.008rem
+    border-top: solid 0.01rem #dcdcdc
+    .cTName
+      text-align: right
+      flex: 1
+      font-weight: bold
+    .cTPrice
+      color: #ff3b21
+      margin-left: 0.14rem
+      font-size: 0.36rem
+
+.itemGroup
+  @include itemBody
+
+.title
+  @include itemTitle
+
+.item
+  display: flex
+  padding: 0.4rem 0
+  border-bottom: solid 0.01rem #dcdcdc
+  .key
+    flex: 1
+    min-width: 0
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+    margin: auto 0
+  .value
+    margin: auto 0 auto auto
+    text-align: right
+
+.addressName
+  font-size: 0.24rem
+
+.addressDetail
+  font-size: 0.24rem
+  margin-top: 0.18rem
+
+.receiver
+  font-size: 0.24rem
+  margin-top: 0.18rem
+
+.tips
+  color: #a5a5a5
+  margin-top: 0.2rem
+  margin-bottom: 1.14rem
+  //line-height: 1rem
+  text-align: center
+
+.share
+  position: fixed
+  right: 0.4rem
+  bottom: 6rem
+  z-index: 50
+
+.shareIcon
+  width: 1.58rem
+
+.dialogCover
+  position: fixed
+  z-index: 51
+  bottom: 0
+  top: 0
+  left: 0
+  right: 0
+  background-color: #000
+  opacity: 0.5
+
+.shareDialog
+  z-index: 52
+  position: fixed
+  top: 0
+  //left: 0
+  //right: 0
+  //width: 100%
+  display: flex
+
+.shareDialogImage
+  width: 90%
+  height: 90%
+  margin: 0 auto
+

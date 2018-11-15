@@ -1,0 +1,832 @@
+.box
+  background-color: #f1f1f1
+  height: 100%
+
+.scroll
+  height: 100%
+  overflow-y: auto
+
+.storeInfo
+  position: relative
+  > div
+    height: 1.78rem
+    background-color: #fff
+    padding-left: 0.37rem
+    padding-right: 0.41rem
+
+.storeBanner
+  //height: 2rem
+  width: 100%
+
+//.storeLogo
+//  position: absolute
+//  width: 1.12rem
+//  height: 1.12rem
+//  top: 1.46rem
+//  left: 0.46rem
+//  border-radius: 0.56rem
+//  border: solid 0.05rem #fff
+//  img
+//    width: 1.12rem
+//    height: 1.12rem
+
+.storeDetail
+  height: 1.78rem
+  background-color: #fff
+  padding-left: 0.37rem
+  padding-right: 0.41rem
+
+.storeNameAndSales
+  display: flex
+  position: relative
+  > div:first-child
+    position: absolute
+    width: 1.12rem
+    height: 1.12rem
+    top: -0.6rem
+    left: 0.12rem
+    border-radius: 0.56rem
+    border: solid 0.05rem #fff
+    img
+      width: 1.12rem
+      height: 1.12rem
+
+.storeName
+  font-size: 0.3rem
+  font-weight: bold
+  margin: 0.18rem auto 0.35rem
+
+.storeSales
+  font-size: 0.24rem
+  margin: 0.21rem 0 auto 0
+  span
+    color: #ed6f00
+
+.storeDescription
+  font-size: 0.24rem
+  text-align: left
+  text-indent: 0.5rem
+  color: #696969
+
+.coupons
+  /*height: 0.9rem;*/
+  background-color: #f1f1f1
+  padding: 0 0.2rem
+  display: flex
+  /*width: 100%;*/
+  overflow-x: auto
+  overflow-y: hidden
+  img
+    width: 2.9rem
+    height: 0.7rem
+
+.couponDetail
+  position: absolute
+  display: flex
+  top: 0
+  /*margin: auto;*/
+  height: 100%
+  width: 100%
+  color: #fff
+  font-size: 0.2rem
+
+.couponA
+  position: relative
+  /*margin: auto 0.18rem auto 0;*/
+  /*width: 2.9rem;*/
+  /*height: 0.7rem;*/
+  margin-top: 0.1rem
+  margin-right: 0.18rem
+
+.hot
+  text-align: center
+  padding-top: 0.13rem
+  /*padding-left: 0.22rem;*/
+  background-color: #fff
+  img
+    height: 0.3rem
+
+.hotProducts
+  display: flex
+  width: auto
+  > div
+    margin: 0.09rem
+    img
+      height: 2.1rem
+      width: 2.1rem
+      border-radius: 0.1rem
+    div:nth-child(2)
+      margin-top: 0.12rem
+      color: #464646
+      font-size: 0.2rem
+    div:last-child
+      margin-top: 0.11rem
+      color: #ff3b21
+
+.hotProductScroll
+  overflow-x: auto
+
+.labelOnTop
+  display: flex
+  overflow-x: scroll
+  position: fixed
+  background-color: #fff
+  top: 0
+  left: 0
+  right: 0
+  z-index: 99
+  > div
+    height: 0.9rem
+    line-height: 0.9rem
+    text-align: center
+    min-width: 1.42rem
+    white-space: nowrap
+    flex: 0 0
+
+.label
+  background-color: #fff
+  border-bottom: solid 0.02rem #eeeeee
+  margin-top: 0.12rem
+  overflow: scroll
+  display: flex
+  > div
+    height: 0.9rem
+    line-height: 0.9rem
+    text-align: center
+    min-width: 1.42rem
+    white-space: nowrap
+    flex: 0 0
+//>div:first-child
+//  display: flex
+
+
+.productList
+  flex: 1
+  min-width: 0
+
+.stack
+  background-color: #fff
+  padding: 0.4rem 0
+
+.product
+  margin-bottom: 0.32rem
+  display: flex
+  position: relative
+  > img
+    width: 2.9rem
+    height: 2.9rem
+    margin-left: 0.2rem
+    border-radius: 0.1rem
+
+.productInfo
+  margin-left: 0.28rem
+  margin-top: 0.26rem
+  flex: 1
+  min-width: 0
+  div:nth-child(1)
+    font-size: 0.28rem
+    font-weight: bold
+  div:nth-child(2)
+    font-size: 0.2rem
+    color: #464646
+    line-height: 1.5
+    min-width: 0
+    margin-top: 0.1rem
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+  div:nth-child(3)
+    margin-top: 0.3rem
+    color: #696969
+    font-size: 0.18rem
+    line-height: 1.5
+  div:nth-child(4)
+    color: #ff3b21
+    font-size: 0.32rem
+    margin-top: 0.66rem
+    width: 0.9rem
+    display: flex
+    > div:last-child
+      font-size: 0.21rem
+      color: #696969
+      text-decoration: line-through
+
+.productCount
+  position: absolute
+  bottom: 0.34rem
+  right: 0.42rem
+  display: flex
+  div
+    font-size: 0.28rem
+    margin: auto 0
+    width: 0.58rem
+    text-align: center
+  img
+    width: 0.44rem
+    height: 0.44rem
+
+.dialogCover
+  position: fixed
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  z-index: 9
+  background-color: #000
+  opacity: 0.5
+
+.dialogCart
+  position: fixed
+  bottom: 1.58rem
+  left: 0.21rem
+  right: 0.21rem
+  z-index: 11
+
+.dialogCartTitle
+  height: 0.62rem
+  background-color: #edc65d
+  color: #fff
+  font-size: 0.24rem
+  border-radius: 0.1rem 0.1rem 0 0
+  display: flex
+  div:first-child
+    flex: 1
+    margin: auto 0 auto 0.21rem
+  div:last-child
+    margin: auto 0.22rem auto 0
+  img
+    height: 0.2rem
+    width: 0.2rem
+    margin: auto 0.21rem auto 0
+
+.dialogCartBody
+  font-size: 0.28rem
+  background-color: #fff
+  border-radius: 0 0 0.1rem 0.1rem
+
+.dialogCartTips
+  font-size: 0.24rem
+  text-align: center
+  height: 0.62rem
+  line-height: 0.62rem
+  color: #a5a5a5
+  border-bottom: solid 0.01rem #dcdcdc
+
+.dialogCartItem
+  display: flex
+  height: 1.1rem
+  margin-left: 0.15rem
+  margin-right: 0.22rem
+  > div:nth-child(1)
+    margin: auto auto auto 0.06rem
+  > div:nth-child(2)
+    margin: auto 0.33rem auto 0
+  > div:nth-child(3)
+    width: 1.43rem
+  > div:nth-child(4)
+    width: 0.55rem
+    text-align: center
+    margin: auto 0
+
+  img
+    height: 0.44rem
+    width: 0.44rem
+    margin: auto 0
+
+.footer
+  position: fixed
+  /*background: red;*/
+  bottom: 0
+  width: 100%
+  display: flex
+  z-index: 10
+
+.back
+  margin: auto 0.23rem 0.3rem 0.3rem
+  img
+    width: 0.86rem
+    height: 0.86rem
+
+.enableCommit, .disableCommit
+  height: 0.9rem
+  line-height: 0.9rem
+  text-align: center
+  font-size: 0.3rem
+  color: #fff
+  flex: 1
+  margin: auto auto 0.3rem auto
+  border-radius: 0.45rem
+
+.disableCommit
+  background-color: #000
+  opacity: 0.7
+
+.enableCommit
+  background-color: #86d791
+  display: flex
+  > div
+    text-align: center
+    flex: 1
+
+.cart
+  margin: auto 0.22rem 0.25rem 0.27rem
+  position: relative
+
+.cartImage
+  width: 0.9rem
+  height: 0.9rem
+
+.cartImageOpen
+  height: 1.1rem
+  width: 0.9rem
+
+.cartCount
+  position: absolute
+  bottom: 0.67rem
+  right: 0
+  color: #fff
+  height: 0.3rem
+  width: 0.3rem
+  background-color: #ff3b21
+  border-radius: 50%
+  text-align: center
+  font-size: 0.18rem
+  line-height: 0.3rem
+  border: solid 0.03rem #fff
+
+.dialogSku
+  position: fixed
+  bottom: 1.58rem
+  left: 0.21rem
+  right: 0.21rem
+  z-index: 11
+
+.dialogSkuTitle
+  height: 0.62rem
+  background-color: #edc65d
+  color: #fff
+  font-size: 0.24rem
+  border-radius: 0.1rem 0.1rem 0 0
+  display: flex
+  div:first-child
+    flex: 1
+    margin: auto 0 auto 0.21rem
+  div:last-child
+    margin: auto 0.22rem auto 0
+  img
+    height: 0.32rem
+    width: 0.32rem
+    margin: auto 0.21rem auto 0
+
+.dialogSkuBody
+  font-size: 0.28rem
+  background-color: #fff
+  border-radius: 0 0 0.1rem 0.1rem
+  padding: 0.2rem 0.22rem
+
+.selectProduct
+  display: flex
+  img
+    height: 1.7rem
+    width: 1.7rem
+    border-radius: 0.1rem
+
+.selectProductInfo
+  margin-left: 0.15rem
+  font-size: 0.28rem
+  > div:nth-child(2)
+    margin-top: 0.09rem
+    line-height: 1.5
+    font-size: 0.2rem
+    color: #696969
+  > div:nth-child(3)
+    margin-top: 0.09rem
+    line-height: 1.5
+    font-size: 0.18rem
+    color: #696969
+  > div:nth-child(4)
+    margin-top: auto
+    line-height: 1.5
+    font-size: 0.18rem
+    color: #696969
+
+.skuList
+  display: flex
+  padding-bottom: 0.28rem
+  flex-wrap: wrap
+  justify-content: space-between
+  border-bottom: solid 0.02rem #dcdcdc
+
+.skuInactive
+  /*flex: auto;*/
+  text-align: center
+  border: solid 0.02rem #edc65d
+  height: 0.68rem
+  width: 2rem
+  margin: 0.2rem 0
+  line-height: 0.68rem
+  border-radius: 0.32rem
+  font-size: 0.24rem
+
+.skuActive
+  text-align: center
+  background-color: #edc65d
+  border: solid 0.02rem #edc65d
+  margin: 0.2rem 0
+  color: #fff
+  height: 0.68rem
+  width: 2rem
+  line-height: 0.68rem
+  border-radius: 0.32rem
+  font-size: 0.24rem
+
+.skuSelect
+  text-align: center
+  width: 4.72rem
+  height: 0.64rem
+  margin: 0.2rem auto 0 auto
+  background-color: #86d791
+  color: #fff
+  line-height: 0.64rem
+  border-radius: 0.32rem
+  font-size: 0.24rem
+
+//
+//.stackProducts {
+///*width: 100%;*/
+///*position: relative;*/
+//}
+//
+//.stackProductTitle {
+//  height: 0.5rem;
+//  background: #ed6f00;
+//  border-radius: 0.1rem 0.1rem 0 0;
+//  text-align:center;
+//  font-size: 0.28rem;
+//  color: #fff;
+//  line-height: 0.5rem;
+//
+//}
+//
+//.stackProductLabel {
+//  margin-bottom: 0.26rem;
+//  margin-right: 0.1rem;
+//
+//}
+//
+//.stackProductBody {
+//  background-color: #fff;
+//  border-radius: 0 0 0.1rem 0.1rem;
+//  padding: 0.1rem;
+//
+//}
+//
+//.stackProduct {
+//  padding: 0.1rem 0;
+//  display:flex;
+//
+//}
+//
+//.stackProductImage {
+//  width: 1.7rem;
+//  height: 1.7rem;
+//  border-radius: 0.1rem;
+//  flex:none;
+//
+//}
+//
+//.stackProductDescription {
+//  flex: 1;
+//  min-width: 0;
+//  margin-left: 0.15rem;
+//  display:flex;
+//  flex-direction:column;
+//  position:relative;
+//
+//}
+//
+//.stackProductName {
+//  font-size: 0.28rem;
+//
+//}
+//
+//.stackProductIntro {
+//  font-size: 0.2rem;
+//  color: #696969;
+//  margin-top: 0.09rem;
+//  overflow:hidden;
+//  line-height: 1.5;
+//  white-space:nowrap;
+//  text-overflow:ellipsis;
+//  width: 100%;
+//
+//}
+//
+//.stackProductSales {
+//  color: #696969;
+//  font-size: 0.18rem;
+//  margin-top: 0.09rem;
+//
+//}
+//
+//.stackProductPrice {
+//  margin:auto auto 0 0;
+//  color: #ff3b21;
+//  font-size: 0.32rem;
+//  display:flex;
+///*width: 1rem;*/
+//}
+//
+//.stackProductSPrice {
+//  font-size: 0.21rem;
+//  color: #696969;
+//  text-decoration:line-through;
+//  /*margin: 1rem;*/
+//  margin:auto 0;
+//
+//}
+//
+//.stackProductCartOps {
+//  position:absolute;
+//  bottom: 0.04rem;
+//  right: 0.2rem;
+//
+//}
+//
+//.stackProductCartOpsBtn {
+//  display:flex;
+///*position: absolute;*/
+//}
+//
+//.stackProductCartCount {
+//  height: 0.44rem;
+//  line-height: 0.44rem;
+//  width: 0.58rem;
+//  text-align:center;
+//
+//}
+//
+//.stackProductCartOpsBtn > img {
+//  height: 0.44rem;
+//  width: 0.44rem;
+//
+//}
+//
+//.stackPlaceHolder {
+//  height: 2rem;
+//
+//}
+//
+//.footer {
+//  /*height: 0.9rem;*/
+//  position:fixed;
+//  /*background: red;*/
+//  bottom: 0;
+//  width: 100%;
+//  display:flex;
+//  z-index: 10;
+//
+//}
+//
+//.back {
+//  margin:auto 0.23rem 0.3rem 0.3rem;
+//
+//}
+//
+//.backImage {
+//  width: 0.86rem;
+//  height: 0.86rem;
+///*margin: auto 0.23rem 0.3rem 0.3rem;*/
+//}
+//
+//.disableCommit, .enableCommit {
+//  height: 0.9rem;
+//  line-height: 0.9rem;
+//  text-align:center;
+//  font-size: 0.3rem;
+//  color: #fff;
+//  flex: 1;
+//  margin:auto auto 0.3rem auto;
+//  border-radius: 0.45rem;
+//
+//}
+//
+//.disableCommit {
+//  background-color: #000;
+//  opacity: 0.7;
+//
+//}
+//
+//.enableCommit {
+//  background-color: #ed6f00;
+//  /*opacity: 1;*/
+//  display:flex;
+//
+//}
+//
+//.commitPrice {
+//  /*margin: auto 0 auto 0.61rem;*/
+//  text-align:center;
+//  flex: 1;
+//
+//}
+//
+//.commitToCart {
+//  /*margin: auto 0.78rem auto 0;*/
+//  text-align:center;
+//  flex: 1;
+//
+//}
+//
+//.cart {
+//  margin:auto 0.22rem 0.25rem 0.27rem;
+//  position:relative;
+//
+//}
+//
+//.cartImage {
+//  width: 0.9rem;
+//  height: 0.9rem;
+//
+//}
+//
+//.cartImageOpen {
+//  height: 1.1rem;
+//  width: 0.9rem;
+//
+//}
+//
+//.cartCount {
+//  position:absolute;
+//  bottom: 0.67rem;
+//  right: 0;
+//  color: #fff;
+//  height: 0.3rem;
+//  width: 0.3rem;
+//  background-color: #ff3b21;
+//  border-radius: 50%;
+//  text-align:center;
+//  font-size: 0.18rem;
+//  line-height: 0.3rem;
+//  border:solid 0.03rem #fff;
+//
+//}
+//
+//.dialogCover {
+//  position:fixed;
+//  top: 0;
+//  bottom: 0;
+//  left: 0;
+//  right: 0;
+//  z-index: 9;
+//  background-color: #000;
+//  opacity: 0.5;
+//
+//}
+//
+//.dialogCart {
+//  position:fixed;
+//  bottom: 1.58rem;
+//  left: 0.21rem;
+//  right: 0.21rem;
+//  z-index: 11;
+///*background-color: red;*/
+//}
+//
+//.dialogCartTitle {
+//  height: 0.62rem;
+//  background-color: #000;
+//  color: #fff;
+//  font-size: 0.24rem;
+//  border-radius: 0.1rem 0.1rem 0 0;
+//  display:flex;
+//
+//}
+//
+//.dialogCartTitleName {
+//  margin:auto auto auto 0.21rem;
+//
+//}
+//
+//.dialogClose {
+//  margin:auto 0.22rem;
+//  height: 0.32rem;
+//  width: 0.32rem;
+//
+//}
+//
+//.dialogCartTitleDel {
+//  margin:auto 0.22rem;
+//
+//}
+//
+//.dialogCartTitleDelIcon {
+//  height: 0.24rem;
+//  margin:auto 0;
+//
+//}
+//
+//.dialogCartBody, .dialogSkuBody {
+//  font-size: 0.28rem;
+//  background-color: #fff;
+//  border-radius: 0 0 0.1rem 0.1rem;
+//
+//}
+//
+//.dialogCartTips {
+//  font-size: 0.24rem;
+//  text-align:center;
+//  height: 0.62rem;
+//  line-height: 0.62rem;
+//  color: #a5a5a5;
+//  border-bottom:solid 0.01rem #dcdcdc;
+//
+//}
+//
+//.dialogCartItem {
+//  display:flex;
+//  height: 1.1rem;
+//  margin-left: 0.15rem;
+//  margin-right: 0.22rem;
+//
+//}
+//
+//.dialogCartItemName {
+//  margin:auto auto auto 0.06rem;
+//
+//}
+//
+//.dialogCartItemPrice {
+//  margin:auto 0.33rem auto 0;
+//
+//}
+//
+//.dialogCartItemOps {
+//  height: 0.44rem;
+//  width: 0.44rem;
+//  margin:auto 0;
+//
+//}
+//
+//.dialogCartItemCount {
+//  width: 0.55rem;
+//  text-align:center;
+//  margin:auto 0;
+//
+//}
+//
+//.dialogSkuBody {
+//  padding: 0.1rem 0.22rem;
+//
+//}
+//
+//.dialogSku {
+//
+//}
+//
+//.skuList {
+//  display:flex;
+//  padding-bottom: 0.28rem;
+//  flex-wrap:wrap;
+//  justify-content:space-between;
+//  border-bottom:solid 0.02rem #dcdcdc;
+//
+//}
+//
+//.skuInactive {
+//  /*flex: auto;*/
+//  text-align:center;
+//  border:solid 0.02rem #000;
+//  height: 0.68rem;
+//  width: 2rem;
+//  line-height: 0.68rem;
+//  border-radius: 0.32rem;
+//  font-size: 0.24rem;
+//
+//}
+//
+//.skuActive {
+//  text-align:center;
+//  background-color: #000;
+//  border:solid 0.02rem #000;
+//  color: #fff;
+//  height: 0.68rem;
+//  width: 2rem;
+//  line-height: 0.68rem;
+//  border-radius: 0.32rem;
+//  font-size: 0.24rem;
+//
+//}
+//
+//.skuSelect {
+//  text-align:center;
+//  width: 4.72rem;
+//  height: 0.64rem;
+//  margin: 0.2rem auto;
+//  background-color: #ed6f00;
+//  color: #fff;
+//  line-height: 0.64rem;
+//  border-radius: 0.32rem;
+//  font-size: 0.24rem;
+//
+//}

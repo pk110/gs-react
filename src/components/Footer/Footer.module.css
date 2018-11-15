@@ -1,0 +1,43 @@
+.footer {
+    position: fixed;
+    flex-direction: row;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    box-sizing: border-box;
+    background: #494949;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 0px 5px 1px;
+    font-size: 0.2rem;
+}
+
+.active {
+    width: 25%;
+    height: 1.0rem;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    background: #ee7000;
+    padding-top: 0.15rem;
+}
+
+.inactive {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #aaa;
+    padding-top: 0.15rem;
+}
+
+.active img {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.inactive img {
+    width: 0.4rem;
+    height: 0.4rem;
+}
